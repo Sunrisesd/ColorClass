@@ -1,5 +1,5 @@
 //
-//  ColorManager.swift
+//  UIColor+ColorChange.swift
 //  CocoaPodsManager
 //
 //  Created by Sunrise on 2019/6/18.
@@ -8,12 +8,12 @@
 
 import UIKit
 
-// MARK: - 颜色类别
+// MARK: - 颜色扩展
 extension UIColor {
 
-    /// 颜色类别
+    /// 颜色扩展，16进制字符串转颜色color
     ///
-    /// - Parameter color: 十六进制字符串，如”#FFFFFF“，”0xFFF000“，”E2E2E2“，字符串数据为6位
+    /// - Parameter color: 16进制字符串，如”#FFFFFF“，”0xFFF000“，”E2E2E2“，字符串数据为6位
     /// - Returns: 颜色color
     public class func colorWithHexString(_ color:String) -> UIColor {
         
