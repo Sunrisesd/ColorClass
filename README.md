@@ -24,7 +24,7 @@ end
 ## 用法
 
 ```swift
-import UIColor+ColorChange
+import ColorClass
 
 class MyViewController: UIViewController {
 
