@@ -13,7 +13,7 @@ extension UIColor {
 
     /// 颜色类别
     ///
-    /// - Parameter color: 十六进制字符串
+    /// - Parameter color: 十六进制字符串，如”#FFFFFF“，”0xFFF000“，”E2E2E2“，字符串数据为6位
     /// - Returns: 颜色color
     public class func colorWithHexString(_ color:String) -> UIColor {
         
